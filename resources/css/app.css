@@ -1,0 +1,282 @@
+:root{
+    --lgris:rgb(162, 180, 196);
+    --bgris: rgb(189, 189, 189);
+    --bcol:#141212;
+}
+.bcolor{
+    background: var(--bcol);
+    border-radius: 3%;
+    
+  }
+  .bcol{
+    background: var(--bcol);
+    color: var(--bgris);;
+  }
+  .butcolor{
+    background-color: var(--bcol);
+    border-radius: 3%;
+    border: none;
+    color: var(--bgris);
+  }
+.reportarb{
+    margin-top: 1rem;;
+}
+.loginReg{
+    text-decoration: none;
+    color: var(--bgris);
+    margin: auto;
+    margin-left: 1rem;
+}
+.izq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.text-gray{
+    color: var(--bgris);
+}
+.input{
+    border: -1px;
+    border-radius: 4px;
+    width: 100%;
+}
+.mar-5{
+    margin-bottom: 5px;
+}
+.cardbg{
+    background-color: #343a40; 
+    padding: 1rem; 
+    border-radius:3px;
+    box-shadow: 1rem;
+    
+}
+.error{
+    background-color: rgb(150, 56, 56);
+    color: var(--lgris);
+    margin: 3px;
+    padding: 4px;
+    border-radius: 3px;
+    text-align: center;
+}
+.otro{
+    border: -1px;
+    border-radius: 4px;
+    border-color: rgb(241, 117, 117);
+    
+    
+}
+a{
+    text-decoration: none;
+}
+/*dashboard*/
+h2,h3,h4,h5,h6,p{
+    color: var(--lgris);
+}
+.marg{
+    padding: 0.25rem;
+}
+.midline{
+    position:relative; 
+    padding: 0;
+}
+.vline{
+    max-width: 1px;
+    position: absolute; 
+    height: 100%;
+    right: -1%; 
+    color:var(--bgris);
+}
+.prof{
+    position: relative;
+}
+.bg-size{
+    width:100%;
+    max-width: 100%;
+}
+.pf-circle{
+    position:absolute;
+    bottom: -4.5rem; 
+    margin-left:1rem; 
+    height: 100px; 
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.info-usr{
+    margin-left: 1rem;
+    
+}
+.icons{
+    margin-top: 5rem;
+}
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.acordeon{
+    background-color: #f8f8f8; 
+    margin: 1rem;
+}
+.acordeonb-color{
+    background-color: rgb(49, 46, 46);
+}
+
+/*sm*/
+.buttonsm{
+    background-color:var(--bcol); 
+    color: gray;
+    border: none;
+    position: absolute;
+    right: 45%;
+    top: -0.9rem;
+
+}
+.centrar{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.mansorymar{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: auto;
+}
+
+.mwith{
+    width: 100%;
+    min-width: 40%;
+}
+/*
+
+pegado
+*/
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: var(--bcol);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+  }
+  
+  .close {
+    color: #1a1919;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/*     masonry grid de video de yt*/
+.grid-containe{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 236px);
+    gap: 4px;
+    justify-items: start;
+}
+.grid-items{
+    width: 236;
+    margin-bottom: 5px;
+    justify-self: start;
+}
+.grid-itemss{
+    width: 200px;
+    margin-bottom: 5px;
+    justify-self: start;
+}
+
+.grid-containn{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20%);
+    gap: 4px;
+    justify-items: start;
+}
+
+.example{
+  display: block;
+}
+
+@media screen and (max-width: 1199px) {
+  .example {
+    display: none;
+  }
+  .tam{
+    width: 100px;
+    /*height: 100px;*/
+}
+}
+
+.more{
+    display: block;
+  }
+  
+  @media screen and (max-width: 2440px) {
+    .more {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 556px) {
+    .imgr{
+        width: 255px;
+    }
+  }
+.margen{
+    margin-left: 1px;
+    padding: 0;
+    margin-right: 0;
+}
+@media screen and (max-width: 555px) {
+    .imgr{
+        width: 300px;
+    }
+    .tam{
+        width: 40px;
+        /*height: 40px;*/
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .tam{
+        width: 70px;
+        /*height: 70px;*/
+    }
+  }
+
+
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

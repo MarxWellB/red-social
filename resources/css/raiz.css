@@ -1,0 +1,100 @@
+.blur-effect {
+    filter: blur(0.5px);
+}
+.responsive-container {
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative; 
+    left:1rem;
+}
+
+@media (min-width: 770px) {
+    
+    .responsive-container {
+        justify-content: flex-start;
+        
+    }    
+}
+
+
+@media (min-width: 1278px) {
+.responsive-container {
+    justify-content: flex-start;
+    margin-left: 0.8%;
+
+}
+.publicidad{
+    row-gap: 5px;
+    left: 1.35rem;
+}
+.hidedPublicy {
+    display: none; 
+}
+
+.hidePublicy {
+    display: block; 
+}
+}
+
+@media (max-width: 1278px) {
+.hidedPublicy {
+    display: block; 
+}
+
+.hidePublicy {
+    display: none; 
+}
+
+
+}.hidedoPublicy {
+    display: none; 
+}
+@media (max-width: 776px) {
+.hidedoPublicy {
+    display: block; 
+
+}
+
+
+}
+@media (max-width: 867px) {
+.responsive-container {
+    justify-content: center;
+}
+
+}
+@media (min-width: 868px) and  (max-width: 1032px) {
+.responsive-container {
+    
+    justify-content: center;
+    position: relative;
+}
+
+}
+@media (min-width: 1152px) and  (max-width: 1287px) {
+.responsive-container {
+    justify-content: flex-start;
+    position: relative; 
+    max-width: 83%;
+}
+
+}
+@media (min-width: 1109px) and  (max-width: 1151px) {
+.responsive-container {
+    justify-content: flex-start;
+    position: relative; 
+    max-width: 90%;
+}
+
+}
+@media (min-width: 1080px) and  (max-width: 1108px) {
+.responsive-container {
+    justify-content: flex-start;
+    position: relative; 
+    max-width: 95%;
+}
+
+}
